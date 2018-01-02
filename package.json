@@ -2,11 +2,10 @@
     "name": "backo3",
     "version": "1.0.0",
     "repository": "d65vid/backo",
-    "description": "simple backoff without the weird abstractions",
-    "keywords": [
-        "backoff"
-    ],
-    "scripts": {"test": "node ./node_modules/mocha/bin/mocha"},
+    "description":
+        "A refactor of backo that provides more information about the current state of the backoff via the `ms` and `attempts` fields.",
+    "keywords": ["backoff"],
+    "scripts": { "test": "node ./node_modules/mocha/bin/mocha" },
     "dependencies": {},
     "devDependencies": {
         "mocha": "*",
